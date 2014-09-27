@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:splitMotionEvents="true" >
+
+    <RadioGroup
+        android:id="@id/language"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:scrollbarStyle="insideOverlay" >
+
+        <RadioButton
+            android:id="@id/language1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:button="@null"
+            android:checked="true"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="@string/lag1" />
+
+        <RadioButton
+            android:id="@id/language2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:button="@null"
+            android:checked="false"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="@string/lag2" />
+
+        <RadioButton
+            android:id="@id/language3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:button="@null"
+            android:checked="false"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="@string/lag3" />
+
+        <RadioButton
+            android:id="@id/language4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:button="@null"
+            android:checked="false"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="@string/lag4" />
+
+        <RadioButton
+            android:id="@id/language5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:button="@null"
+            android:checked="false"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="@string/lag5" />
+
+        <RadioButton
+            android:id="@id/language6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:button="@null"
+            android:checked="false"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="@string/lag6" />
+
+        <RadioButton
+            android:id="@id/language7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:button="@null"
+            android:checked="false"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="@string/lag7" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@id/show"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:clickable="true"
+        android:text="@string/show" />
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#99000000"
+    android:orientation="vertical"
+    android:padding="@dimen/about_text_size" >
+
+    <ImageView
+        android:id="@id/about_image_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/webericon"
+        android:src="@drawable/wallet" />
+
+    <TextView
+        android:id="@id/cntact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/text_contact"
+        android:textColor="@color/image_text_color"
+        android:textSize="@dimen/about_text_size" />
+
+    <TextView
+        android:id="@id/contct_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="phone"
+        android:text="@string/text_no"
+        android:textSize="@dimen/about_text_size" />
+
+    <TextView
+        android:id="@id/tech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/tech_support"
+        android:textColor="@color/image_text_color"
+        android:textSize="@dimen/about_text_size" />
+
+    <TextView
+        android:id="@id/tech_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:text="@string/tech_sup"
+        android:textSize="@dimen/about_text_size" />
+
+</LinearLayout>

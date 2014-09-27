@@ -1,0 +1,430 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profile_bg_color_drawable_file" >
+
+    <TextView
+        android:id="@+id/status_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Status"
+        android:textColor="#61093f"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/profileimage_profile"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/image1" />
+
+    <TextView
+        android:id="@+id/profilename_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/profileimage_profile"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/profileimage_profile"
+        android:singleLine="true"
+        android:text="Sai Krishna"
+        android:textColor="#80ff0000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/calendericon_profile"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignLeft="@id/profilename_profile"
+        android:layout_below="@id/profilename_profile"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/icon_calendar" />
+
+    <TextView
+        android:id="@+id/dob_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profilename_profile"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/calendericon_profile"
+        android:text="12 SEP 1988"
+        android:textColor="#99000000" />
+
+    <ImageView
+        android:id="@+id/locationicon_profile"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignLeft="@id/profilename_profile"
+        android:layout_below="@id/calendericon_profile"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_action_place" />
+
+    <TextView
+        android:id="@+id/place_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dob_profile"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/locationicon_profile"
+        android:text="Madhapur,Hyderabad"
+        android:textColor="#99000000" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1_profile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@id/profileimage_profile"
+        android:layout_below="@id/profileimage_profile"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/signin"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/gender_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gender_profiledata" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll1_profile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/linearLayout1_profile"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/linearLayout1_profile"
+        android:background="@drawable/signin"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/img_counter_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:text="125"
+            android:textColor="#ffffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/photo_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="PHOTOS"
+            android:textColor="#ffffffff"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll4_profile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@id/linearLayout1_profile"
+        android:layout_below="@id/linearLayout1_profile"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/signin"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/img_counter_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:text="65"
+            android:textColor="#ffffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/photo_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Movies"
+            android:textColor="#ffffffff"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll5_profile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/ll4_profile"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/ll4_profile"
+        android:background="@drawable/signin"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/img_counter_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:text="56"
+            android:textColor="#ffffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/photo_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Tv Shows"
+            android:textColor="#ffffffff"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll6_profile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/ll5_profile"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/ll5_profile"
+        android:background="@drawable/signin"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/img_counter_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:text="87"
+            android:textColor="#ffffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/photo_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Books"
+            android:textColor="#ffffffff"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll7_profile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/ll6_profile"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/ll6_profile"
+        android:background="@drawable/signin"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/img_counter_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:text="39"
+            android:textColor="#ffffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/photo_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Places"
+            android:textColor="#ffffffff"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/phone_icon_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/ll4_profile"
+        android:layout_below="@id/ll4_profile"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/phone_profile_image" />
+
+    <TextView
+        android:id="@+id/phone_no_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/phone_icon_profile"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/phone_icon_profile"
+        android:text="918564793280"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/msg_icon_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/phone_icon_profile"
+        android:layout_below="@id/phone_icon_profile"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/email_profile_pic" />
+
+    <TextView
+        android:id="@+id/email_id_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/msg_icon_profile"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/msg_icon_profile"
+        android:text="sathya@theweber.co.in"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:id="@+id/intrests_layout_profile"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@id/msg_icon_profile"
+        android:layout_below="@id/msg_icon_profile"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/signin"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/intrest_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:paddingLeft="10dp"
+            android:text="Intrests"
+            android:textColor="#0000ff"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/intrests_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:scrollbars="vertical"
+            android:text="Ilike watching movies and enjoying nature byke raiding car racing and etc"
+            android:textColor="#99000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/about_layout_profile"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@id/intrests_layout_profile"
+        android:layout_below="@id/intrests_layout_profile"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/signin"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/about_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:paddingLeft="10dp"
+            android:text="About"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/intrests_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:scrollbars="vertical"
+            android:text="I am a good and nice looking person and very naughty boy good and nonstop talker"
+            android:textColor="#99000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll3_profile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/ll4_profile"
+        android:layout_alignLeft="@+id/ll7_profile"
+        android:background="@drawable/signin"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/gender_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/twitter" />
+
+        <TextView
+            android:id="@+id/photo_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Follow"
+            android:textColor="#ffffffff"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2_profile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/ll3_profile"
+        android:layout_toLeftOf="@+id/ll7_profile"
+        android:background="@drawable/signin"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/img_counter_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:text="586"
+            android:textColor="#ffffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/no_of_matches_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="No Matches"
+            android:textColor="#ffffffff"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

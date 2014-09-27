@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@id/profile_imagerounded_feed_page"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/feedpage_image_views" />
+
+    <TextView
+        android:id="@id/profile_name_feed_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/profile_imagerounded_feed_page"
+        android:layout_toRightOf="@id/profile_imagerounded_feed_page"
+        android:textColor="@color/translucent_red"
+        android:textSize="@dimen/profile_text_size_feedpage"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@id/edit_post_image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/profile_name"
+        android:background="@drawable/feed_page_edit_pic"
+        android:contentDescription="@string/feedpage_image_views" />
+
+    <ImageView
+        android:id="@id/image_for_time_feedpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_name_feed_page"
+        android:layout_toRightOf="@id/profile_imagerounded_feed_page"
+        android:background="@drawable/feedpage_time_pic"
+        android:contentDescription="@string/action_settings" />
+
+    <TextView
+        android:id="@id/time_feed_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/image_for_time_feedpage"
+        android:layout_below="@id/profile_name_feed_page"
+        android:layout_toRightOf="@id/image_for_time_feedpage"
+        android:textColor="#000000"
+        android:textSize="@dimen/time_text_size_feedpage" />
+
+    <ImageView
+        android:id="@id/image_for_location_feedpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_for_time_feedpage"
+        android:layout_toRightOf="@id/profile_imagerounded_feed_page"
+        android:background="@drawable/feedpage_location_pic"
+        android:contentDescription="@string/feedpage_image_views" />
+
+    <TextView
+        android:id="@id/location_feed_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/image_for_location_feedpage"
+        android:layout_below="@id/time_feed_page"
+        android:layout_toRightOf="@id/image_for_location_feedpage"
+        android:autoLink="map"
+        android:textColor="#000000"
+        android:textSize="@dimen/location_text_size_feedpage" />
+
+    <TextView
+        android:id="@id/paragraph_feed_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_imagerounded_feed_page"
+        android:layout_margin="15dp"
+        android:textColor="#000000" />
+
+    <TableLayout
+        android:id="@id/table_layout_for_feedpage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/paragraph_feed_page"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/table_row_feed_page"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@id/like_id_feed_page"
+                android:background="@drawable/selectors_for_like_comment"
+                android:gravity="center"
+                android:text="@string/feedpage_like"
+                android:clickable="true"
+                android:textColor="@color/like_comment"
+                android:textSize="@dimen/text_size_of_like_comt" />
+
+            <TextView
+                android:id="@id/comment_id_feed_page"
+                android:background="@drawable/selectors_for_like_comment"
+                android:gravity="center"
+                android:text="@string/feedpage_comment"
+                android:textColor="@color/like_comment"
+                android:clickable="true"
+                android:textSize="@dimen/text_size_of_like_comt" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

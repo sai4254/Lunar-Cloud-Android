@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Weber</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_search">Sarch</string>
+    <string name="action_speech">speech</string>
+    <string name="sai">image data</string>
+    <string name="comment">comment</string>
+    <string name="Like">Like</string>
+    <string name="image">each image data</string>
+    <string name="webericon">weber icon </string>
+    <string name="text_about">Weber is Matching people things,feelings,openians share with friends,relatives and others</string>
+    <string name="link1">www.theweber.co.in/about</string>
+    <string name="profile_pic_content">this is profile pic data</string>
+    <string name="profile_pic_content2">This image will be updated in your profile picture and it shown your friends and others also</string>
+    <string name="online">Show Online  </string>
+    <string name="offline">Show Offline  </string>
+    <string name="present">present location</string>
+    <string name="lag1">Automatic</string>
+    <string name="lag2">English(US)</string>
+    <string name="lag3">English(UK)</string>
+    <string name="lag4">French</string>
+    <string name="lag5">Greak</string>
+    <string name="lag6">Hindi</string>
+    <string name="lag7">Telugu</string>
+    <string name="lag8">Thamil</string>
+    <string name="show">Show As</string>
+    <string name="ok">OK</string>
+    <string name="noti1">Notifications On</string>
+    <string name="noti2">Notifications Off</string>
+    <string name="hint">Title</string>
+    <string name="hint2">Messege</string>
+    <string name="Feed">Send Feedback</string>
+    <string name="text_contact">Customer support</string>
+    <string name="text_no">04012345678</string>
+    <string name="tech_support">Tech Support</string>
+    <string name="tech_sup">customer@theweber.co.in</string>
+    <string name="hint3">Enter Your Query</string>
+    <string name="query">Send Your Query</string>
+    <string name="feedpage_image_views">feedpageimage views data</string>
+    <string name="feedpage_like">Like</string>
+    <string name="feedpage_comment">Comment</string>
+    <string name="time_for_notification">12:56 AM</string>
+    <string name="am">I am looking for</string>
+    <string name="look">Something to do</string>
+    <string name="in">in</string>
+    <string name="go">go</string>
+    <string name="invite">invite yourself and your friends</string>
+    <string name="invite_signin">Sign In</string>
+    <string name="invite_signup">Sign Up</string>
+    <string name="app_name_result_page">weber</string>
+    <string name="action_settings_result_page">Settings</string>
+    <string name="action_search_result_page">Sarch</string>
+    <string name="search_hint_actionbar_result_page">Search here..</string>
+    <string name="img_desc_loc_result_app_name">img_desc_loc_result_app_name</string>
+    <string name="img_desc_resultpg_action_settings">img_desc_resultpg_action_settings</string>
+
+</resources>

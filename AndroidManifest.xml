@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.weber.weber"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <permission
+        android:name="com.weber.weber.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" >
+    </permission>
+
+    <uses-permission android:name="com.weber.weber.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/wallet"
+        android:label="@string/app_name"
+        android:theme="@style/PropertyApp" >
+        <activity
+            android:name="com.weber.weber.Fragment_Search"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.weber.splash.splash_activity_fragment"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.weber.weber.Weber"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.weber.settings.About_setting_fragment"
+            android:icon="@drawable/about_logo"
+            android:label="About Us"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.weber.settings.Contact_setting_page"
+            android:icon="@drawable/contact_us_logo"
+            android:label="Contact US"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.weber.settings.Feedback_setting_fragment"
+            android:icon="@drawable/feed_back_logo"
+            android:label="Feedback"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.weber.settings.Location_setting_fragment"
+            android:icon="@drawable/location_logo"
+            android:label="Location"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAJGq_z3N4vNqMLFuvXAmW42X-vid5wtmE" />
+
+        <activity
+            android:name="com.weber.settings.Network_usage_setting_page"
+            android:icon="@drawable/net_logo"
+            android:label="Network Usage"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.weber.settings.Profile_page_setting_fragment"
+            android:icon="@drawable/profile_logo"
+            android:label="Profile"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.weber.settings.Queries_setting_fragment"
+            android:icon="@drawable/queries_logo"
+            android:label="Queries"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.weber.guest_results.Guest_results_fragments"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.weber.weber.profile_pic_fragment_person_each"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

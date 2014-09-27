@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@id/notification"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="10dp" >
+
+        <RadioButton
+            android:id="@id/notification_on"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:checked="true"
+            android:singleLine="true"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="@string/noti1" />
+
+        <RadioButton
+            android:id="@id/notification_off"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:singleLine="true"
+            android:checked="false"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="@string/noti2" />
+    </RadioGroup>
+
+    <Button
+        android:id="@id/ok"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@id/notification"
+        android:layout_marginTop="102dp"
+        android:clickable="true"
+        android:text="@string/ok" />
+
+</RelativeLayout>

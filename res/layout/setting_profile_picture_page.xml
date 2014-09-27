@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_main_color"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/profile_pic_activity_top_margin" >
+
+    <ImageView
+        android:id="@id/profile_pic_for_weber"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:background="@color/image_text_color"
+        android:contentDescription="@string/profile_pic_content"
+        android:src="@drawable/images1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/profile_pic_for_weber"
+        android:layout_below="@id/profile_pic_for_weber"
+        android:layout_marginTop="10dp"
+        android:text="@string/profile_pic_content2"
+        android:textColor="@color/profile_pic_text"
+        android:textSize="@dimen/profilepic_content_size" />
+
+    <ImageButton
+        android:id="@id/bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/profile_pic_for_weber"
+        android:layout_alignRight="@id/profile_pic_for_weber"
+        android:background="@drawable/edit"
+        android:clickable="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/profile_pic_content" />
+
+</RelativeLayout>

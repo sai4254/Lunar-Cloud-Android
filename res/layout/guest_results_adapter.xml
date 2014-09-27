@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/image_text_color" >
+
+    <ImageView
+        android:id="@id/profile_pic_result_page_id"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/feedpage_image_views" />
+
+    <TextView
+        android:id="@id/profile_name_result_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/profile_pic_result_page_id"
+        android:layout_toRightOf="@id/profile_pic_result_page_id"
+        android:textColor="@color/translucent_red"
+        android:textSize="@dimen/profilenm_text_size_resut_page"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@id/edit_post_image_button_result_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/profile_name_result_page"
+        android:background="@drawable/feed_page_edit_pic"
+        android:contentDescription="@string/feedpage_image_views" />
+
+    <ImageView
+        android:id="@id/imageView1_time_icon_result_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_name_result_page"
+        android:layout_toRightOf="@id/profile_pic_result_page_id"
+        android:background="@drawable/feedpage_time_pic"
+        android:contentDescription="@string/img_desc_resultpg_action_settings" />
+
+    <TextView
+        android:id="@id/time_textview_of_result_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imageView1_time_icon_result_page"
+        android:layout_below="@id/profile_name_result_page"
+        android:layout_toRightOf="@id/imageView1_time_icon_result_page"
+        android:textColor="@color/color_timetext_result_page"
+        android:textSize="@dimen/time_text_size_result_page" />
+
+    <ImageView
+        android:id="@id/imageView2_location_icon_result_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView1_time_icon_result_page"
+        android:layout_toRightOf="@id/profile_pic_result_page_id"
+        android:background="@drawable/feedpage_location_pic"
+        android:contentDescription="@string/img_desc_loc_result_app_name" />
+
+    <TextView
+        android:id="@id/location_text_size_result_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="map"
+        android:layout_alignTop="@id/imageView2_location_icon_result_page"
+        android:layout_below="@id/time_textview_of_result_page"
+        android:layout_toRightOf="@id/imageView2_location_icon_result_page"
+        android:textColor="@color/color_location_txt_result_page"
+        android:textSize="@dimen/location_text_size_result_page" />
+
+    <TextView
+        android:id="@id/paragraph_text_result_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_pic_result_page_id"
+        android:layout_margin="15dp"
+        android:linksClickable="true"
+        android:textColor="@color/color_paragraph_of_result_page" />
+
+</RelativeLayout>

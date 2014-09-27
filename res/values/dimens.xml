@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="edittextsize">5dp</dimen>
+    <dimen name="btntextsize">5dp</dimen>
+    <dimen name="ptextsize">10dp</dimen>
+    <dimen name="ltextsize">7dp</dimen>
+    <dimen name="ttextsize">7dp</dimen>
+    <dimen name="pnametextsize">15dp</dimen>
+    <dimen name="btntextsize2">5dp</dimen>
+    <dimen name="pading_about">50dp</dimen>
+    <dimen name="text_size_of_imagetext">15dp</dimen>
+    <dimen name="about_text_size">20dp</dimen>
+    <dimen name="profile_pic_activity_top_margin">10dp</dimen>
+    <dimen name="profilepic_content_size">20dp</dimen>
+    <dimen name="present_location_text_size">18dp</dimen>
+    <dimen name="profile_text_size_feedpage">17dp</dimen>
+    <dimen name="time_text_size_feedpage">12dp</dimen>
+    <dimen name="location_text_size_feedpage">12dp</dimen>
+    <dimen name="textsize_of_paragraph_feed_page">20dp</dimen>
+    <dimen name="text_size_for_comment_notification">17dp</dimen>
+    <dimen name="text_size_for_time_notification">10dp</dimen>
+    <dimen name="text_size_of_like_comt">17dp</dimen>
+    <dimen name="textsize">25dp</dimen>
+    <dimen name="textsize2">30dp</dimen>
+    <dimen name="text_size">10dp</dimen>
+    <dimen name="profilenm_text_size_resut_page">15dp</dimen>
+    <dimen name="time_text_size_result_page">12dp</dimen>
+    <dimen name="location_text_size_result_page">12dp</dimen>
+
+</resources>

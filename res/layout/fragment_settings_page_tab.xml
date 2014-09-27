@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/feed_bg_color"
+    tools:context=".Weber_settings_page" >
+
+    <GridView
+        android:id="@id/settings_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:columnWidth="100dp"
+        android:gravity="center"
+        android:horizontalSpacing="2dip"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="2dip" >
+    </GridView>
+
+</LinearLayout>

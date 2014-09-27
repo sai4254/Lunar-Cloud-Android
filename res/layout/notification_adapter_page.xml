@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:background="@color/image_text_color"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@id/image_for_notification"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/feedpage_image_views" />
+
+    <TextView
+        android:id="@id/comment_for_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/image_for_notification"
+        android:layout_toRightOf="@id/image_for_notification"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_size_for_comment_notification" />
+
+    <ImageView
+        android:id="@id/time_image_for_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/comment_for_notification"
+        android:layout_toRightOf="@id/image_for_notification"
+        android:background="@drawable/feedpage_time_pic"
+        android:contentDescription="@string/feedpage_image_views" />
+
+    <TextView
+        android:id="@id/time_for_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_for_notification"
+        android:layout_alignTop="@+id/time_image_for_notification"
+        android:layout_toRightOf="@+id/time_image_for_notification"
+        android:textColor="@color/text_color_like_cmt"
+        android:textSize="@dimen/text_size_for_time_notification" />
+
+</RelativeLayout>

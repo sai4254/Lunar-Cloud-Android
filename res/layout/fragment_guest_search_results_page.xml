@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/feed_bg_color" >
+
+    <ListView
+        android:id="@id/listView1_result_page"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="7dp"
+        android:background="@color/image_text_color"
+        android:divider="@color/feed_bg_color"
+        android:dividerHeight="10dp" >
+    </ListView>
+
+</RelativeLayout>

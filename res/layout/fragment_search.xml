@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/guide_bg_01"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@id/relative_for_search"
+        android:layout_width="fill_parent"
+        android:layout_height="270dp"
+        android:layout_marginTop="100dp"
+        android:background="#66000000" >
+
+        <TextView
+            android:id="@id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/am"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/textsize" />
+
+        <TextView
+            android:id="@id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text"
+            android:layout_marginLeft="30dp"
+            android:text="@string/look"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/textsize" />
+
+        <EditText
+            android:id="@id/search_bar"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/text2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/search_bar_background"
+            android:hint="@string/in"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColor="@color/textcolor"
+            android:textColorHint="@color/textcolor"
+            android:textSize="@dimen/textsize2" />
+
+        <Button
+            android:id="@id/sign_signup"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/search_bar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/selector_for_sign_in"
+            android:text="@string/invite_signin"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/about_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@id/invite"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/sign_signup"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/search_bar_background3"
+            android:text="@string/invite"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@id/button2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_above="@id/sign_signup"
+            android:layout_alignRight="@id/search_bar"
+            android:background="@drawable/button_select"
+            android:text="@string/go"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize2"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>
